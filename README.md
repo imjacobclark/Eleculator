@@ -1,0 +1,2 @@
+# Eleculator
+V/I*R
