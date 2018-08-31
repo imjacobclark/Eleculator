@@ -1,3 +1,28 @@
+<<<<<<< HEAD
 .stack-work/
 eleculator.cabal
 *~
+=======
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+>>>>>>> 9aa2a040ba705ddc7ed56f5739161da18b72d3f8
