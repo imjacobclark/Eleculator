@@ -6,7 +6,6 @@ import OhmsLaw
 import Text.Printf
 
 currentMenu = do
-    hSetBuffering stdout NoBuffering
     putStr "What is your voltage (V)? "
     v <- getLine
     putStr "What is your resistance (R)? "

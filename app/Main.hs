@@ -20,5 +20,6 @@ eleculator = getLine >>= (\opt -> ohms_law opt)
 
 main :: IO ()
 main = do
+    hSetBuffering stdout NoBuffering
     putStrLn "\nWelcome to Eleculator!\nCalculate, compute and understand electrical circuits.\n\nMenu (type the letter to enter the program):\n\tOhms law:\n\t\tr - Calculate resistance\n\t\tv - Calculate voltage\n\t\ti - Calculate amps\n\t\tp - Calculate watts (power)"
     forever eleculator
